@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>slop.fit — Slop Detection SaaS</title>
+    <meta
+      name="description"
+      content="Stop publishing confident nonsense. Get a slop score instantly—before your readers do."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-noise"></div>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="logo">slop<span>.fit</span></div>
+        <nav class="nav-links">
+          <a href="#product">Product</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#api">API</a>
+          <a href="#pricing">Pricing</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn ghost" href="#pricing">See plans</a>
+          <a class="btn primary" href="#demo">Get a demo</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="demo">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Slop Detection SaaS</p>
+            <h1>Stop publishing confident nonsense.</h1>
+            <p class="lead">
+              Get a slop score instantly—before your readers do. slop.fit
+              pinpoints vague claims, filler density, and logical drift so your
+              team ships content that actually says something.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#pricing">Start scanning</a>
+              <a class="btn ghost" href="#product">See how it works</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">Instant</span>
+                <span class="meta-value">Slop Score</span>
+              </div>
+              <div>
+                <span class="meta-label">Meaningful → Mostly slop</span>
+                <span class="meta-value">0–100 scale</span>
+              </div>
+              <div>
+                <span class="meta-label">Built for</span>
+                <span class="meta-value">Writers, publishers, platforms</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-header">
+              <span>Instant Slop Scan</span>
+              <span class="score">72</span>
+            </div>
+            <div class="card-body">
+              <div class="meter">
+                <div class="meter-fill"></div>
+              </div>
+              <p class="score-label">Mostly slop</p>
+              <ul class="card-list">
+                <li>Coherence breaks around paragraph 4</li>
+                <li>Topic drift triggered by “visionary synergy”</li>
+                <li>3 unverifiable claims need sources</li>
+                <li>Filler density above 28%</li>
+              </ul>
+              <button class="btn ghost full">Rewrite suggestions</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="product">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">What You Get</p>
+            <h2>Instant Slop Scan</h2>
+            <p>
+              Paste text and get a Slop Score in seconds with the diagnostics
+              that make edits obvious.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <div class="feature">
+              <h3>Slop Score (0–100)</h3>
+              <p>Track “Meaningful” to “Mostly slop” on a single scale.</p>
+            </div>
+            <div class="feature">
+              <h3>Coherence map</h3>
+              <p>See where logic breaks, topic drift starts, and contradictions appear.</p>
+            </div>
+            <div class="feature">
+              <h3>Filler + buzzword density</h3>
+              <p>Highlights phrases that add style, not meaning.</p>
+            </div>
+            <div class="feature">
+              <h3>Claim spotting</h3>
+              <p>Flags unverifiable or vague claims that need sources.</p>
+            </div>
+            <div class="feature">
+              <h3>Rewrite suggestions</h3>
+              <p>Optional toggle that turns fuzzy text into concrete prose.</p>
+            </div>
+          </div>
+          <div class="callout">
+            <p>
+              “Stop publishing confident nonsense. Get a slop score instantly—before your readers do.”
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="workflow">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Real-Time Tools</p>
+            <h2>Real-time editor & browser tools</h2>
+          </div>
+          <div class="split">
+            <div>
+              <h3>Write with slop alerts</h3>
+              <ul class="bullets">
+                <li>Chrome extension scores Google Docs, Notion, and CMS editors.</li>
+                <li>Google Docs add-on for teams that live in Docs.</li>
+                <li>CMS plugins for WordPress, Webflow, and Shopify blog editors.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Batch & workflow tools</h3>
+              <ul class="bullets">
+                <li>Bulk upload docs, URLs, or CSVs.</li>
+                <li>Website scanning for full domains or curated page lists.</li>
+                <li>Queue + triage to sort by worst slop first.</li>
+                <li>Team review links with shareable slop report PDFs.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="api">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">For Platforms & Publishers</p>
+            <h2>API for moderation and publishing pipelines</h2>
+            <p>
+              REST API with webhooks to block, warn, or require edits based on
+              your slop thresholds.
+            </p>
+          </div>
+          <div class="api-grid">
+            <div class="feature">
+              <h3>Pre-publish checks</h3>
+              <p>Run scans before content goes live, at scale.</p>
+            </div>
+            <div class="feature">
+              <h3>Moderation pipelines</h3>
+              <p>Plug into queues to route high-slop content for review.</p>
+            </div>
+            <div class="feature">
+              <h3>Marketplace quality control</h3>
+              <p>Screen UGC, reviews, and listings automatically.</p>
+            </div>
+            <div class="feature">
+              <h3>Webhooks</h3>
+              <p>Trigger “block / warn / require edit” actions instantly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Guardrails</p>
+            <h2>Upsell modes for editorial standards</h2>
+          </div>
+          <div class="feature-grid">
+            <div class="feature">
+              <h3>Brand voice + quality policy</h3>
+              <p>Define what “acceptable” looks like and enforce it everywhere.</p>
+            </div>
+            <div class="feature">
+              <h3>Industry templates</h3>
+              <p>SEO blog, medical content, education, product descriptions.</p>
+            </div>
+            <div class="feature">
+              <h3>Custom calibration</h3>
+              <p>Tune slop scoring to your editorial standards.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing" id="pricing">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Packaging</p>
+            <h2>Simple, familiar plans</h2>
+            <p>Start free, then scale from solo creators to enterprise teams.</p>
+          </div>
+          <div class="pricing-grid">
+            <div class="price-card">
+              <h3>Free</h3>
+              <p class="price">Lead gen</p>
+              <ul class="bullets">
+                <li>5 scans/day or 10k words/month</li>
+                <li>Basic Slop Score + top 5 highlights</li>
+                <li>No API, no batch, no exports</li>
+              </ul>
+              <a class="btn ghost full" href="#demo">Try free</a>
+            </div>
+            <div class="price-card highlight">
+              <h3>Creator</h3>
+              <p class="price">$12–$19 / month</p>
+              <ul class="bullets">
+                <li>Unlimited single scans (fair use)</li>
+                <li>Full highlights + rewrite suggestions</li>
+                <li>Browser extension</li>
+                <li>Export share links</li>
+              </ul>
+              <a class="btn primary full" href="#demo">Start Creator</a>
+            </div>
+            <div class="price-card">
+              <h3>Pro</h3>
+              <p class="price">$29–$49 / month</p>
+              <ul class="bullets">
+                <li>Batch scanning + file upload + URL scans</li>
+                <li>3–5 team seats</li>
+                <li>Version history of reports</li>
+                <li>Basic API access (rate-limited)</li>
+              </ul>
+              <a class="btn ghost full" href="#demo">Go Pro</a>
+            </div>
+            <div class="price-card">
+              <h3>Team</h3>
+              <p class="price">$99–$249 / month</p>
+              <ul class="bullets">
+                <li>10–50 seats + pooled usage</li>
+                <li>Advanced dashboards for slop trends</li>
+                <li>SSO, roles, permissions</li>
+                <li>Higher API limits + SLA</li>
+              </ul>
+              <a class="btn ghost full" href="#demo">Talk to sales</a>
+            </div>
+            <div class="price-card">
+              <h3>Enterprise</h3>
+              <p class="price">Custom</p>
+              <ul class="bullets">
+                <li>Dedicated instance or VPC</li>
+                <li>Custom calibration + policy enforcement</li>
+                <li>On-prem or regional hosting</li>
+                <li>Contract + procurement-friendly terms</li>
+              </ul>
+              <a class="btn ghost full" href="#demo">Contact enterprise</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta">
+        <div class="container cta-card">
+          <div>
+            <p class="eyebrow">Ready to ship real content?</p>
+            <h2>Run your first slop scan in minutes.</h2>
+          </div>
+          <div class="cta-actions">
+            <a class="btn primary" href="#demo">Get a demo</a>
+            <a class="btn ghost" href="#pricing">Compare plans</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo">slop<span>.fit</span></div>
+          <p>Static marketing site for slop detection.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#product">Product</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#api">API</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div class="footer-links">
+          <a href="#demo">Get a demo</a>
+          <a href="#demo">Start scanning</a>
+          <a href="#pricing">Plans</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
