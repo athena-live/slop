@@ -371,6 +371,29 @@ a {
   gap: 10px;
 }
 
+.footer-social {
+  display: flex;
+  align-items: flex-start;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.social-link:hover {
+  color: var(--accent-dark);
+}
+
+.social-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
 @media (max-width: 900px) {
   .nav-links {
     display: none;
