@@ -23,6 +23,12 @@ body {
   background: radial-gradient(circle at top, #fff9f1, var(--bg));
   min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .bg-noise {
@@ -362,6 +368,16 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 24px;
+  color: var(--muted);
+}
+
+.footer-note {
+  margin: 12px 0 8px;
+}
+
+.footer-legal {
+  margin: 0;
+  font-size: 0.9rem;
   color: var(--muted);
 }
 
